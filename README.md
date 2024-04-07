@@ -12,5 +12,5 @@ nano install_agnudp.sh
 ```
 // Install the script
 ```
-chmod +x install_agnudp.sh; ./install_pieudp.sh
+chmod +x install_pieudp.sh; ./install_pieudp.sh
 ```
