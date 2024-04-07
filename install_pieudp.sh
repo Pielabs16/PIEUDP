@@ -19,7 +19,7 @@ DOMAIN="vpn.khaledagn.com"
 PROTOCOL="udp"
 
 # UDP PORT
-UDP_PORT=":36712"
+UDP_PORT=":1-65000"
 
 # OBFS
 OBFS="pieudp"
@@ -673,10 +673,10 @@ tpl_etc_hysteria_config_json() {
   "protocol": "$PROTOCOL",
   "cert": "/etc/hysteria/hysteria.server.crt",
   "key": "/etc/hysteria/hysteria.server.key",
-  "up": "100 Mbps",
-  "up_mbps": 100,
-  "down": "100 Mbps",
-  "down_mbps": 100,
+  "up": "10 Mbps",
+  "up_mbps": 10,
+  "down": "10 Mbps",
+  "down_mbps": 10,
   "disable_udp": false,
   "obfs": "$OBFS",
   "auth": {
