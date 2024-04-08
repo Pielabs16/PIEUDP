@@ -19,7 +19,7 @@ DOMAIN="vpn.khaledagn.com"
 PROTOCOL="udp"
 
 # UDP PORT
-UDP_PORT=":1025-65535, 3478, 36712"
+UDP_PORT=":3478"
 
 # OBFS
 OBFS="pieudp"
